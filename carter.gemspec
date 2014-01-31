@@ -59,7 +59,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<money>, ["= 3.1.5"])
       s.add_development_dependency(%q<sqlite3>, ["~> 1.3.8"])
       s.add_development_dependency(%q<rspec>, ["~> 2.13.0"])
-      s.add_runtime_dependency(%q<rails>, ["~> 4.0.0"])
+      s.add_runtime_dependency(%q<rails>, ["~> 4.0"])
       s.add_runtime_dependency(%q<state_machine>, ["~> 1.2.0"])
     else
       s.add_dependency(%q<yard>, ["~> 0.6.0"])
@@ -70,7 +70,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<money>, ["= 3.1.5"])
       s.add_dependency(%q<sqlite3>, ["~> 1.3.8"])
       s.add_dependency(%q<rspec>, ["~> 2.13.0"])
-      s.add_dependency(%q<rails>, ["~> 4.0.0"])
+      s.add_dependency(%q<rails>, ["~> 4.0"])
       s.add_dependency(%q<state_machine>, ["~> 1.2.0"])
     end
   else
@@ -82,7 +82,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<money>, ["= 3.1.5"])
     s.add_dependency(%q<sqlite3>, ["~> 1.3.8"])
     s.add_dependency(%q<rspec>, ["~> 2.13.0"])
-    s.add_dependency(%q<rails>, ["~> 4.0.0"])
+    s.add_dependency(%q<rails>, ["~> 4.0"])
     s.add_dependency(%q<state_machine>, ["~> 1.2.0"])
   end
 end
